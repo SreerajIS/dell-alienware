@@ -1,0 +1,167 @@
+.header {
+  height: auto;
+}
+.header-top {
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+  width: 100%;
+  justify-content: space-between;
+}
+.left-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.dell-logo {
+  height: 26px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.middle-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 200px;
+  max-width: 630px;
+}
+.search-box {
+  flex: 9;
+  height: 26px;
+  max-width: 567px;
+  border: solid;
+  border-width: 1px 0 1px 1px;
+  font-family: Roboto;
+  background-color: white;
+}
+.search-button {
+  background-color: white;
+  border-width: 1px 1px 1px 0;
+  cursor: pointer;
+}
+.search-icon {
+  flex: 1;
+  height: 22px;
+  border: none;
+}
+.right-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+}
+.user-icon {
+  height: 17px;
+  opacity: .6;
+}
+.user-button {
+  align-items: center;
+  background-color: white;
+  border: none;
+}
+.sign-in {
+  opacity: .8;
+  display: inline-block;
+  font-size: 14px;
+}
+.contact-button {
+  border: none;
+  background-color: white;
+  align-items: center;
+}
+.fa-sharp {
+  opacity: .7;
+  font-size: 16px;
+  padding-top: 5px;
+}
+.contact {
+  display: inline;
+  opacity: .8;
+  font-size: 14px;
+}
+.language-button {
+  border: none;
+  background-color: white;
+  align-items: center;
+}
+.fa-globe {
+  opacity: .7;
+  font-size: 16px;
+
+}
+.language {
+  display: inline;
+  opacity: .8;
+  font-size: 14px;
+}
+.cart-button {
+  border: none;
+  background-color: white;
+  align-items: center;
+}
+.fa-cart-shopping {
+  opacity: .7;
+  font-size: 16px;
+}
+.cart {
+  display: inline;
+  opacity: .8;
+  font-size: 14px;
+
+}
+.dropdown-icon {
+  opacity: 1;
+  font-size: 12px;
+}
+.header-middle {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 40px;
+  width: auto;
+  margin-left: 20px;
+}
+.header-middle-button {
+  border: none;
+  background-color: white;
+  margin-right: 20px;
+}
+.header-middle-content {
+  font-size: 14px;
+  opacity: .8;
+}
+.hr1 {
+  margin: 0;
+  padding: 0;
+}
+.header-bottom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 105px;
+}
+.button {
+  flex: 1;
+}
+.blank-button {
+  flex: 2;
+}
+.header-bottom-button {
+  height: 90px;
+  width: 150px;
+  border: 0;
+  background-color: white;
+}
+.fa-bottom {
+  font-size: 30px;
+  color: black;
+}
+.alienware-icon {
+  opacity: .7;
+  height:30px;
+}
+.header-bottom-content {
+  margin-top: 10px;
+}

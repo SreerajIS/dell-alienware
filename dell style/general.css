@@ -1,0 +1,27 @@
+p {
+  font-family: Roboto, Arial, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+}
+button {
+  cursor: pointer;
+}
+.fixed-button-div {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+}
+.fixed-button {
+  height: 40px;
+  width: 140px;
+  border: none;
+  background-color: #0063b8;
+  color: white;
+  float: right;
+}
+.fixed-button-text {
+  font-size: 14px;
+}
